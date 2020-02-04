@@ -6,6 +6,10 @@
 #
 
 LOCAL_PATH := device/blackshark/skywalker
+
+# define hardware platform
+PRODUCT_PLATFORM := msmnile
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
