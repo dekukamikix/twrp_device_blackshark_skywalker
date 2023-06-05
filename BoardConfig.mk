@@ -105,6 +105,7 @@ TARGET_USES_MKE2FS := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
+#BOARD_SEPOLICY_VERS := 29.0
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -138,6 +139,7 @@ TW_DEFAULT_BRIGHTNESS := 420
 TW_Y_OFFSET := 0
 TW_H_OFFSET := 0
 TW_THEME := portrait_hdpi
+TW_ROUND_SCREEN := true
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_NO_SCREEN_BLANK := true
